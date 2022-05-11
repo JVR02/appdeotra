@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
 
 namespace appdeotra
 {
@@ -17,6 +18,24 @@ namespace appdeotra
             InitializeComponent();
             this.puntos2 = puntos2;
         }
+        static string conexion = "SERVER= 127.0.0.1;DATABASE=civil;UID=root;PASSWORDS=;";
+        MySqlConnection cn = new MySqlConnection(conexion);
+
+        string a;
+        string b;
+        string c;
+        string d;
+        string ee;
+        string f;
+        string g;
+        string h;
+        string i;
+        string img1;
+        string img2;
+        string img3;
+        string img4;
+
+
         int puntos2;
         int puntosfinales;
         private void radioButton37_CheckedChanged(object sender, EventArgs e)
@@ -56,6 +75,245 @@ namespace appdeotra
 
         private void button29_Click(object sender, EventArgs e)
         {
+
+            if(radioButton1.Checked==true)
+            {
+                a = "2 metros";
+            }
+            if (radioButton2.Checked == true)
+            {
+                a = "2.1 a 2.5 metros";
+            }
+            if (radioButton3.Checked == true)
+            {
+                a = "2.6 a 3 metros";
+            }
+            if (radioButton4.Checked == true)
+            {
+                a = "mayor a 3.1 metros";
+            }
+
+            if (botonmaposteria.Checked == true)
+            {
+                b = "Mamposteria";
+            }
+
+            if (radioButton6.Checked == true)
+            {
+                b = "Concreto reforzado";
+            }
+
+            if (radioButton7.Checked == true)
+            {
+                b = "Prefabricado";
+            }
+
+            if (radioButton8.Checked == true)
+            {
+                b = "Acero";
+            }
+
+            if (radioButton9.Checked == true)
+            {
+                b = "Madera";
+            }
+
+            if (radioButton10.Checked == true)
+            {
+                b = "Adobe";
+            }
+
+            if (radioButton11.Checked == true)
+            {
+                b = "Tapia";
+            }
+
+            if (radioButton12.Checked == true)
+            {
+                b = "Guadua";
+            }
+
+            if (radioButton13.Checked == true)
+            {
+                b =Convert.ToString(textBox2.Text);
+            }
+
+            if (radioButton14.Checked == true)
+            {
+                c = "Reforzada";
+            }
+
+            if (radioButton15.Checked == true)
+            {
+                c = "No reforzada";
+            }
+
+            if (radioButton16.Checked == true)
+            {
+                c = "No confinada";
+            }
+
+            if (radioButton17.Checked == true)
+            {
+                d = "Muro estructural";
+            }
+
+            if (radioButton18.Checked == true)
+            {
+                d = "Pórtico";
+            }
+
+            if (radioButton19.Checked == true)
+            {
+                d = "Sistema dual o combinado";
+            }
+
+            if (radioButton39.Checked == true)
+            {
+                d = "Prefabricado";
+            }
+
+            if (radioButton20.Checked == true)
+            {
+                ee = "Yeso";
+            }
+
+            if (radioButton21.Checked == true)
+            {
+                ee = "Madera";
+            }
+
+            if (radioButton22.Checked == true)
+            {
+                ee = "PVC";
+            }
+
+            if (radioButton23.Checked == true)
+            {
+                ee = "Drywall";
+            }
+
+            if (radioButton24.Checked == true)
+            {
+                ee = "Fibrocemento";
+            }
+
+            if (radioButton25.Checked == true)
+            {
+                ee=Convert.ToString(textBox1.Text);
+            }
+
+            if (radioButton27.Checked == true)
+            {
+                f = "Losa de concreto aligerado";
+            }
+
+            if (radioButton26.Checked == true)
+            {
+                f = "Losa de concreto maciza";
+            }
+
+            if (radioButton5.Checked == true)
+            {
+                f = "Viga de madera";
+            }
+
+            if (radioButton28.Checked == true)
+            {
+                f = "Viga de acero";
+            }
+
+            if (radioButton34.Checked == true)
+            {
+                g = "Losa de concero aligerado";
+            }
+
+            if (radioButton33.Checked == true)
+            {
+                g = "Losa de concreto maciza";
+            }
+
+            if (radioButton32.Checked == true)
+            {
+                g = "Zinc";
+            }
+
+            if (radioButton31.Checked == true)
+            {
+                g = "Termina en plancha";
+            }
+
+            if (radioButton30.Checked == true)
+            {
+                g = "placa facil";
+            }
+
+            if (radioButton29.Checked == true)
+            {
+                g = "Eternit";
+            }
+
+            if (radioButton35.Checked == true)
+            {
+                g = "Estructura de madera y tejas de barro";
+            }
+
+            if (radioButton36.Checked == true)
+            {
+                g = "Metálica";
+            }
+
+            if (radioButton37.Checked == true)
+            {
+                h = "si";
+            }
+
+            if (radioButton38.Checked == true)
+            {
+                h = "no";
+            }
+
+            if (radioButton42.Checked == true)
+            {
+                i = "si";
+            }
+
+            if (radioButton41.Checked == true)
+            {
+                i = "no";
+            }
+
+            MemoryStream ms = new MemoryStream();
+            pictureBox1.Image.Save(ms, pictureBox1.Image.RawFormat);
+            byte[] imageBytes = ms.ToArray();
+
+            img1=Convert.ToBase64String(imageBytes);
+            
+            MemoryStream ms1 = new MemoryStream();
+            pictureBox2.Image.Save(ms1, pictureBox2.Image.RawFormat);
+            byte[] imageBytes1 = ms1.ToArray();
+
+            img2 = Convert.ToBase64String(imageBytes1);
+
+            MemoryStream ms2 = new MemoryStream();
+            pictureBox4.Image.Save(ms2, pictureBox4.Image.RawFormat);
+            byte[] imageBytes2 = ms2.ToArray();
+
+            img3=Convert.ToBase64String(imageBytes2);
+
+            MemoryStream ms3 = new MemoryStream();
+            pictureBox3.Image.Save(ms3, pictureBox3.Image.RawFormat);
+            byte[] imageBytes3 = ms3.ToArray();
+
+            img4 = Convert.ToBase64String(imageBytes3);
+
+            cn.Open();
+            string insertar = "INSERT INTO form3 (altura_pisos,material_costruccion,tipo_mamposteria,tipo_concreto,tipo_prefabricado,construccion_piso_vivienda,tipo_techo,hundimiento,grietas,foto_1,foto_2,foto_3,foto_4)" +
+                "values('" + a + "','" + b + "', '" + c + "','" + d + "','" + ee + "','" + f + "','" + g + "','" + h + "', '" + i + "', '" + img1 + "', '" + img2 + "', '" + img3 + "', '" + img4 + "') ";
+            MySqlCommand cmd = new MySqlCommand(insertar,cn);
+
+
+
             if (radioButton1.Checked == true)
                 puntos2 = puntos2 + 1;
             if (radioButton2.Checked == true)
@@ -133,6 +391,9 @@ namespace appdeotra
          if(radioButton42.Checked == true)
                 puntos2 =puntos2 +3;
 
+            cmd.ExecuteNonQuery();
+            cn.Close();
+
             puntosfinales = puntos2 * 100 / 56;
 
             if (puntosfinales > 0 && puntosfinales <= 30)
@@ -146,6 +407,8 @@ namespace appdeotra
 
             if (puntosfinales >= 81 && puntosfinales <= 100)
                 MessageBox.Show("Su grado de vulnerabilidad es extrema" + " ya que su puntaje es de " + (puntosfinales) + "%");
+            
+            
 
             this.Close();
 
@@ -405,6 +668,11 @@ namespace appdeotra
         {
             Form formulario1 = new Metalica();
             formulario1.Show();
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

@@ -160,8 +160,9 @@
             this.flowLayoutPanel1.Controls.Add(this.panel11);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(1471, 761);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(1681, 1015);
             this.flowLayoutPanel1.TabIndex = 0;
             // 
             // panel1
@@ -172,19 +173,22 @@
             this.panel1.Controls.Add(this.radioButton2);
             this.panel1.Controls.Add(this.radioButton1);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(3, 3);
+            this.panel1.Location = new System.Drawing.Point(3, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1446, 221);
+            this.panel1.Size = new System.Drawing.Size(1653, 295);
             this.panel1.TabIndex = 0;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // radioButton4
             // 
             this.radioButton4.AutoSize = true;
             this.radioButton4.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.radioButton4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.radioButton4.Location = new System.Drawing.Point(645, 181);
+            this.radioButton4.Location = new System.Drawing.Point(737, 241);
+            this.radioButton4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(157, 24);
+            this.radioButton4.Size = new System.Drawing.Size(198, 29);
             this.radioButton4.TabIndex = 11;
             this.radioButton4.TabStop = true;
             this.radioButton4.Text = "Mayor a 3.1 metros";
@@ -195,9 +199,10 @@
             this.radioButton3.AutoSize = true;
             this.radioButton3.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.radioButton3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.radioButton3.Location = new System.Drawing.Point(645, 140);
+            this.radioButton3.Location = new System.Drawing.Point(737, 187);
+            this.radioButton3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(122, 24);
+            this.radioButton3.Size = new System.Drawing.Size(156, 29);
             this.radioButton3.TabIndex = 10;
             this.radioButton3.TabStop = true;
             this.radioButton3.Text = "2.6 a 3 metros";
@@ -208,9 +213,10 @@
             this.radioButton2.AutoSize = true;
             this.radioButton2.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.radioButton2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.radioButton2.Location = new System.Drawing.Point(645, 96);
+            this.radioButton2.Location = new System.Drawing.Point(736, 129);
+            this.radioButton2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(132, 24);
+            this.radioButton2.Size = new System.Drawing.Size(169, 29);
             this.radioButton2.TabIndex = 9;
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "2.1 a 2.5 metros";
@@ -221,9 +227,10 @@
             this.radioButton1.AutoSize = true;
             this.radioButton1.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.radioButton1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.radioButton1.Location = new System.Drawing.Point(644, 54);
+            this.radioButton1.Location = new System.Drawing.Point(736, 72);
+            this.radioButton1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(86, 24);
+            this.radioButton1.Size = new System.Drawing.Size(109, 29);
             this.radioButton1.TabIndex = 8;
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "2 metros";
@@ -234,9 +241,9 @@
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.Font = new System.Drawing.Font("Goudy Old Style", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.label1.Location = new System.Drawing.Point(661, 12);
+            this.label1.Location = new System.Drawing.Point(755, 16);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(166, 39);
+            this.label1.Size = new System.Drawing.Size(190, 52);
             this.label1.TabIndex = 7;
             this.label1.Text = "Altura entre pisos";
             // 
@@ -257,9 +264,10 @@
             this.panel2.Controls.Add(this.radioButton7);
             this.panel2.Controls.Add(this.radioButton6);
             this.panel2.Controls.Add(this.label2);
-            this.panel2.Location = new System.Drawing.Point(3, 230);
+            this.panel2.Location = new System.Drawing.Point(3, 307);
+            this.panel2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1446, 442);
+            this.panel2.Size = new System.Drawing.Size(1653, 589);
             this.panel2.TabIndex = 1;
             // 
             // button6
@@ -267,9 +275,10 @@
             this.button6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button6.BackColor = System.Drawing.Color.Transparent;
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Location = new System.Drawing.Point(805, 313);
+            this.button6.Location = new System.Drawing.Point(920, 417);
+            this.button6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(90, 33);
+            this.button6.Size = new System.Drawing.Size(103, 44);
             this.button6.TabIndex = 30;
             this.button6.Text = "Ver imagen ";
             this.button6.UseVisualStyleBackColor = false;
@@ -280,9 +289,10 @@
             this.button5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button5.BackColor = System.Drawing.Color.Transparent;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Location = new System.Drawing.Point(805, 161);
+            this.button5.Location = new System.Drawing.Point(920, 215);
+            this.button5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(90, 29);
+            this.button5.Size = new System.Drawing.Size(103, 39);
             this.button5.TabIndex = 29;
             this.button5.Text = "Ver imagen ";
             this.button5.UseVisualStyleBackColor = false;
@@ -293,9 +303,10 @@
             this.button4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button4.BackColor = System.Drawing.Color.Transparent;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Location = new System.Drawing.Point(805, 95);
+            this.button4.Location = new System.Drawing.Point(920, 127);
+            this.button4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(90, 28);
+            this.button4.Size = new System.Drawing.Size(103, 37);
             this.button4.TabIndex = 20;
             this.button4.Text = "Ver imagen ";
             this.button4.UseVisualStyleBackColor = false;
@@ -305,9 +316,10 @@
             // 
             this.textBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox2.Location = new System.Drawing.Point(753, 394);
+            this.textBox2.Location = new System.Drawing.Point(861, 525);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(129, 23);
+            this.textBox2.Size = new System.Drawing.Size(147, 27);
             this.textBox2.TabIndex = 28;
             // 
             // botonmaposteria
@@ -315,9 +327,10 @@
             this.botonmaposteria.AutoSize = true;
             this.botonmaposteria.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.botonmaposteria.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.botonmaposteria.Location = new System.Drawing.Point(645, 99);
+            this.botonmaposteria.Location = new System.Drawing.Point(737, 132);
+            this.botonmaposteria.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.botonmaposteria.Name = "botonmaposteria";
-            this.botonmaposteria.Size = new System.Drawing.Size(117, 24);
+            this.botonmaposteria.Size = new System.Drawing.Size(147, 29);
             this.botonmaposteria.TabIndex = 27;
             this.botonmaposteria.TabStop = true;
             this.botonmaposteria.Text = "Mamposteria";
@@ -329,9 +342,10 @@
             this.radioButton13.AutoSize = true;
             this.radioButton13.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.radioButton13.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.radioButton13.Location = new System.Drawing.Point(645, 393);
+            this.radioButton13.Location = new System.Drawing.Point(737, 524);
+            this.radioButton13.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.radioButton13.Name = "radioButton13";
-            this.radioButton13.Size = new System.Drawing.Size(58, 24);
+            this.radioButton13.Size = new System.Drawing.Size(72, 29);
             this.radioButton13.TabIndex = 26;
             this.radioButton13.TabStop = true;
             this.radioButton13.Text = "Otro";
@@ -342,9 +356,10 @@
             this.radioButton12.AutoSize = true;
             this.radioButton12.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.radioButton12.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.radioButton12.Location = new System.Drawing.Point(645, 346);
+            this.radioButton12.Location = new System.Drawing.Point(737, 461);
+            this.radioButton12.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.radioButton12.Name = "radioButton12";
-            this.radioButton12.Size = new System.Drawing.Size(80, 24);
+            this.radioButton12.Size = new System.Drawing.Size(99, 29);
             this.radioButton12.TabIndex = 25;
             this.radioButton12.TabStop = true;
             this.radioButton12.Text = "Guadua";
@@ -355,9 +370,10 @@
             this.radioButton11.AutoSize = true;
             this.radioButton11.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.radioButton11.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.radioButton11.Location = new System.Drawing.Point(645, 316);
+            this.radioButton11.Location = new System.Drawing.Point(737, 421);
+            this.radioButton11.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.radioButton11.Name = "radioButton11";
-            this.radioButton11.Size = new System.Drawing.Size(63, 24);
+            this.radioButton11.Size = new System.Drawing.Size(77, 29);
             this.radioButton11.TabIndex = 24;
             this.radioButton11.TabStop = true;
             this.radioButton11.Text = "Tapia";
@@ -368,9 +384,10 @@
             this.radioButton10.AutoSize = true;
             this.radioButton10.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.radioButton10.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.radioButton10.Location = new System.Drawing.Point(645, 271);
+            this.radioButton10.Location = new System.Drawing.Point(737, 361);
+            this.radioButton10.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.radioButton10.Name = "radioButton10";
-            this.radioButton10.Size = new System.Drawing.Size(72, 24);
+            this.radioButton10.Size = new System.Drawing.Size(89, 29);
             this.radioButton10.TabIndex = 23;
             this.radioButton10.TabStop = true;
             this.radioButton10.Text = "Adobe";
@@ -381,9 +398,10 @@
             this.radioButton9.AutoSize = true;
             this.radioButton9.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.radioButton9.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.radioButton9.Location = new System.Drawing.Point(645, 241);
+            this.radioButton9.Location = new System.Drawing.Point(737, 321);
+            this.radioButton9.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.radioButton9.Name = "radioButton9";
-            this.radioButton9.Size = new System.Drawing.Size(80, 24);
+            this.radioButton9.Size = new System.Drawing.Size(99, 29);
             this.radioButton9.TabIndex = 22;
             this.radioButton9.TabStop = true;
             this.radioButton9.Text = "Madera";
@@ -394,9 +412,10 @@
             this.radioButton8.AutoSize = true;
             this.radioButton8.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.radioButton8.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.radioButton8.Location = new System.Drawing.Point(645, 211);
+            this.radioButton8.Location = new System.Drawing.Point(737, 281);
+            this.radioButton8.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.radioButton8.Name = "radioButton8";
-            this.radioButton8.Size = new System.Drawing.Size(67, 24);
+            this.radioButton8.Size = new System.Drawing.Size(83, 29);
             this.radioButton8.TabIndex = 21;
             this.radioButton8.TabStop = true;
             this.radioButton8.Text = "Acero";
@@ -407,9 +426,10 @@
             this.radioButton7.AutoSize = true;
             this.radioButton7.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.radioButton7.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.radioButton7.Location = new System.Drawing.Point(645, 166);
+            this.radioButton7.Location = new System.Drawing.Point(737, 225);
+            this.radioButton7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.radioButton7.Name = "radioButton7";
-            this.radioButton7.Size = new System.Drawing.Size(115, 24);
+            this.radioButton7.Size = new System.Drawing.Size(142, 29);
             this.radioButton7.TabIndex = 19;
             this.radioButton7.TabStop = true;
             this.radioButton7.Text = "Prebafricado";
@@ -421,9 +441,10 @@
             this.radioButton6.AutoSize = true;
             this.radioButton6.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.radioButton6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.radioButton6.Location = new System.Drawing.Point(645, 130);
+            this.radioButton6.Location = new System.Drawing.Point(737, 173);
+            this.radioButton6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.radioButton6.Name = "radioButton6";
-            this.radioButton6.Size = new System.Drawing.Size(160, 24);
+            this.radioButton6.Size = new System.Drawing.Size(199, 29);
             this.radioButton6.TabIndex = 18;
             this.radioButton6.TabStop = true;
             this.radioButton6.Text = "Concreto reforzado";
@@ -435,9 +456,9 @@
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label2.Font = new System.Drawing.Font("Goudy Old Style", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label2.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.label2.Location = new System.Drawing.Point(668, 18);
+            this.label2.Location = new System.Drawing.Point(763, 24);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(205, 51);
+            this.label2.Size = new System.Drawing.Size(234, 68);
             this.label2.TabIndex = 17;
             this.label2.Text = "Material de construcción";
             // 
@@ -450,9 +471,10 @@
             this.panel3.Controls.Add(this.radioButton15);
             this.panel3.Controls.Add(this.radioButton14);
             this.panel3.Controls.Add(this.label3);
-            this.panel3.Location = new System.Drawing.Point(3, 678);
+            this.panel3.Location = new System.Drawing.Point(3, 904);
+            this.panel3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1446, 188);
+            this.panel3.Size = new System.Drawing.Size(1653, 251);
             this.panel3.TabIndex = 2;
             this.panel3.Visible = false;
             // 
@@ -461,9 +483,10 @@
             this.button8.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button8.BackColor = System.Drawing.Color.Transparent;
             this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.Location = new System.Drawing.Point(765, 153);
+            this.button8.Location = new System.Drawing.Point(874, 204);
+            this.button8.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(90, 31);
+            this.button8.Size = new System.Drawing.Size(103, 41);
             this.button8.TabIndex = 24;
             this.button8.Text = "Ver imagen ";
             this.button8.UseVisualStyleBackColor = false;
@@ -474,9 +497,10 @@
             this.button7.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button7.BackColor = System.Drawing.Color.Transparent;
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Location = new System.Drawing.Point(765, 65);
+            this.button7.Location = new System.Drawing.Point(874, 87);
+            this.button7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(90, 31);
+            this.button7.Size = new System.Drawing.Size(103, 41);
             this.button7.TabIndex = 23;
             this.button7.Text = "Ver imagen ";
             this.button7.UseVisualStyleBackColor = false;
@@ -487,9 +511,10 @@
             this.radioButton16.AutoSize = true;
             this.radioButton16.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.radioButton16.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.radioButton16.Location = new System.Drawing.Point(646, 161);
+            this.radioButton16.Location = new System.Drawing.Point(738, 215);
+            this.radioButton16.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.radioButton16.Name = "radioButton16";
-            this.radioButton16.Size = new System.Drawing.Size(97, 24);
+            this.radioButton16.Size = new System.Drawing.Size(121, 29);
             this.radioButton16.TabIndex = 22;
             this.radioButton16.TabStop = true;
             this.radioButton16.Text = "Confinada";
@@ -500,9 +525,10 @@
             this.radioButton15.AutoSize = true;
             this.radioButton15.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.radioButton15.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.radioButton15.Location = new System.Drawing.Point(644, 117);
+            this.radioButton15.Location = new System.Drawing.Point(736, 156);
+            this.radioButton15.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.radioButton15.Name = "radioButton15";
-            this.radioButton15.Size = new System.Drawing.Size(118, 24);
+            this.radioButton15.Size = new System.Drawing.Size(146, 29);
             this.radioButton15.TabIndex = 21;
             this.radioButton15.TabStop = true;
             this.radioButton15.Text = "No reforzada";
@@ -513,9 +539,10 @@
             this.radioButton14.AutoSize = true;
             this.radioButton14.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.radioButton14.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.radioButton14.Location = new System.Drawing.Point(646, 67);
+            this.radioButton14.Location = new System.Drawing.Point(738, 89);
+            this.radioButton14.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.radioButton14.Name = "radioButton14";
-            this.radioButton14.Size = new System.Drawing.Size(96, 24);
+            this.radioButton14.Size = new System.Drawing.Size(119, 29);
             this.radioButton14.TabIndex = 20;
             this.radioButton14.TabStop = true;
             this.radioButton14.Text = "Reforzada";
@@ -526,9 +553,9 @@
             this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label3.Font = new System.Drawing.Font("Goudy Old Style", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label3.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.label3.Location = new System.Drawing.Point(661, 13);
+            this.label3.Location = new System.Drawing.Point(755, 17);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(205, 51);
+            this.label3.Size = new System.Drawing.Size(234, 68);
             this.label3.TabIndex = 22;
             this.label3.Text = "Tipo de mamposteria";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -543,9 +570,10 @@
             this.panel4.Controls.Add(this.radioButton18);
             this.panel4.Controls.Add(this.label5);
             this.panel4.Controls.Add(this.radioButton17);
-            this.panel4.Location = new System.Drawing.Point(3, 872);
+            this.panel4.Location = new System.Drawing.Point(3, 1163);
+            this.panel4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1446, 243);
+            this.panel4.Size = new System.Drawing.Size(1653, 324);
             this.panel4.TabIndex = 3;
             this.panel4.Visible = false;
             // 
@@ -554,9 +582,10 @@
             this.button10.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button10.BackColor = System.Drawing.Color.Transparent;
             this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button10.Location = new System.Drawing.Point(792, 206);
+            this.button10.Location = new System.Drawing.Point(905, 275);
+            this.button10.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(90, 34);
+            this.button10.Size = new System.Drawing.Size(103, 45);
             this.button10.TabIndex = 28;
             this.button10.Text = "Ver imagen ";
             this.button10.UseVisualStyleBackColor = false;
@@ -567,9 +596,10 @@
             this.radioButton39.AutoSize = true;
             this.radioButton39.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.radioButton39.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.radioButton39.Location = new System.Drawing.Point(646, 216);
+            this.radioButton39.Location = new System.Drawing.Point(738, 288);
+            this.radioButton39.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.radioButton39.Name = "radioButton39";
-            this.radioButton39.Size = new System.Drawing.Size(115, 24);
+            this.radioButton39.Size = new System.Drawing.Size(142, 29);
             this.radioButton39.TabIndex = 27;
             this.radioButton39.TabStop = true;
             this.radioButton39.Text = "Prefabricado";
@@ -580,9 +610,10 @@
             this.button9.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button9.BackColor = System.Drawing.Color.Transparent;
             this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button9.Location = new System.Drawing.Point(792, 127);
+            this.button9.Location = new System.Drawing.Point(905, 169);
+            this.button9.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(90, 36);
+            this.button9.Size = new System.Drawing.Size(103, 48);
             this.button9.TabIndex = 26;
             this.button9.Text = "Ver imagen ";
             this.button9.UseVisualStyleBackColor = false;
@@ -593,9 +624,10 @@
             this.radioButton19.AutoSize = true;
             this.radioButton19.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.radioButton19.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.radioButton19.Location = new System.Drawing.Point(645, 173);
+            this.radioButton19.Location = new System.Drawing.Point(737, 231);
+            this.radioButton19.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.radioButton19.Name = "radioButton19";
-            this.radioButton19.Size = new System.Drawing.Size(207, 24);
+            this.radioButton19.Size = new System.Drawing.Size(259, 29);
             this.radioButton19.TabIndex = 23;
             this.radioButton19.TabStop = true;
             this.radioButton19.Text = "Sistema dual o combinado";
@@ -606,9 +638,10 @@
             this.radioButton18.AutoSize = true;
             this.radioButton18.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.radioButton18.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.radioButton18.Location = new System.Drawing.Point(645, 129);
+            this.radioButton18.Location = new System.Drawing.Point(737, 172);
+            this.radioButton18.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.radioButton18.Name = "radioButton18";
-            this.radioButton18.Size = new System.Drawing.Size(75, 24);
+            this.radioButton18.Size = new System.Drawing.Size(94, 29);
             this.radioButton18.TabIndex = 24;
             this.radioButton18.TabStop = true;
             this.radioButton18.Text = "Pórtico";
@@ -619,9 +652,9 @@
             this.label5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label5.Font = new System.Drawing.Font("Goudy Old Style", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label5.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.label5.Location = new System.Drawing.Point(681, 17);
+            this.label5.Location = new System.Drawing.Point(778, 23);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(225, 40);
+            this.label5.Size = new System.Drawing.Size(257, 53);
             this.label5.TabIndex = 19;
             this.label5.Text = "Tipo de concreto reforzado";
             // 
@@ -630,9 +663,10 @@
             this.radioButton17.AutoSize = true;
             this.radioButton17.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.radioButton17.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.radioButton17.Location = new System.Drawing.Point(645, 88);
+            this.radioButton17.Location = new System.Drawing.Point(737, 117);
+            this.radioButton17.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.radioButton17.Name = "radioButton17";
-            this.radioButton17.Size = new System.Drawing.Size(142, 24);
+            this.radioButton17.Size = new System.Drawing.Size(177, 29);
             this.radioButton17.TabIndex = 25;
             this.radioButton17.TabStop = true;
             this.radioButton17.Text = "Muro estructural";
@@ -654,9 +688,10 @@
             this.panel5.Controls.Add(this.radioButton21);
             this.panel5.Controls.Add(this.radioButton20);
             this.panel5.Controls.Add(this.label4);
-            this.panel5.Location = new System.Drawing.Point(3, 1121);
+            this.panel5.Location = new System.Drawing.Point(3, 1495);
+            this.panel5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(1446, 360);
+            this.panel5.Size = new System.Drawing.Size(1653, 480);
             this.panel5.TabIndex = 4;
             this.panel5.Visible = false;
             // 
@@ -665,9 +700,10 @@
             this.button15.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button15.BackColor = System.Drawing.Color.Transparent;
             this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button15.Location = new System.Drawing.Point(786, 244);
+            this.button15.Location = new System.Drawing.Point(898, 325);
+            this.button15.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(90, 23);
+            this.button15.Size = new System.Drawing.Size(103, 31);
             this.button15.TabIndex = 37;
             this.button15.Text = "Ver imagen ";
             this.button15.UseVisualStyleBackColor = false;
@@ -678,9 +714,10 @@
             this.button14.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button14.BackColor = System.Drawing.Color.Transparent;
             this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button14.Location = new System.Drawing.Point(786, 202);
+            this.button14.Location = new System.Drawing.Point(898, 269);
+            this.button14.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(90, 23);
+            this.button14.Size = new System.Drawing.Size(103, 31);
             this.button14.TabIndex = 36;
             this.button14.Text = "Ver imagen ";
             this.button14.UseVisualStyleBackColor = false;
@@ -691,9 +728,10 @@
             this.button13.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button13.BackColor = System.Drawing.Color.Transparent;
             this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button13.Location = new System.Drawing.Point(786, 159);
+            this.button13.Location = new System.Drawing.Point(898, 212);
+            this.button13.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(90, 23);
+            this.button13.Size = new System.Drawing.Size(103, 31);
             this.button13.TabIndex = 35;
             this.button13.Text = "Ver imagen ";
             this.button13.UseVisualStyleBackColor = false;
@@ -704,9 +742,10 @@
             this.button12.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button12.BackColor = System.Drawing.Color.Transparent;
             this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button12.Location = new System.Drawing.Point(786, 117);
+            this.button12.Location = new System.Drawing.Point(898, 156);
+            this.button12.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(90, 23);
+            this.button12.Size = new System.Drawing.Size(103, 31);
             this.button12.TabIndex = 34;
             this.button12.Text = "Ver imagen ";
             this.button12.UseVisualStyleBackColor = false;
@@ -717,9 +756,10 @@
             this.button11.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button11.BackColor = System.Drawing.Color.Transparent;
             this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button11.Location = new System.Drawing.Point(786, 76);
+            this.button11.Location = new System.Drawing.Point(898, 101);
+            this.button11.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(90, 23);
+            this.button11.Size = new System.Drawing.Size(103, 31);
             this.button11.TabIndex = 33;
             this.button11.Text = "Ver imagen ";
             this.button11.UseVisualStyleBackColor = false;
@@ -729,9 +769,10 @@
             // 
             this.textBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox1.Location = new System.Drawing.Point(735, 289);
+            this.textBox1.Location = new System.Drawing.Point(840, 385);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(147, 23);
+            this.textBox1.Size = new System.Drawing.Size(168, 27);
             this.textBox1.TabIndex = 32;
             // 
             // radioButton25
@@ -739,9 +780,10 @@
             this.radioButton25.AutoSize = true;
             this.radioButton25.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.radioButton25.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.radioButton25.Location = new System.Drawing.Point(645, 289);
+            this.radioButton25.Location = new System.Drawing.Point(737, 385);
+            this.radioButton25.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.radioButton25.Name = "radioButton25";
-            this.radioButton25.Size = new System.Drawing.Size(58, 24);
+            this.radioButton25.Size = new System.Drawing.Size(72, 29);
             this.radioButton25.TabIndex = 31;
             this.radioButton25.TabStop = true;
             this.radioButton25.Text = "Otro";
@@ -752,9 +794,10 @@
             this.radioButton24.AutoSize = true;
             this.radioButton24.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.radioButton24.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.radioButton24.Location = new System.Drawing.Point(644, 242);
+            this.radioButton24.Location = new System.Drawing.Point(736, 323);
+            this.radioButton24.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.radioButton24.Name = "radioButton24";
-            this.radioButton24.Size = new System.Drawing.Size(122, 24);
+            this.radioButton24.Size = new System.Drawing.Size(152, 29);
             this.radioButton24.TabIndex = 30;
             this.radioButton24.TabStop = true;
             this.radioButton24.Text = "Fibrocemento";
@@ -765,9 +808,10 @@
             this.radioButton23.AutoSize = true;
             this.radioButton23.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.radioButton23.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.radioButton23.Location = new System.Drawing.Point(644, 200);
+            this.radioButton23.Location = new System.Drawing.Point(736, 267);
+            this.radioButton23.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.radioButton23.Name = "radioButton23";
-            this.radioButton23.Size = new System.Drawing.Size(80, 24);
+            this.radioButton23.Size = new System.Drawing.Size(99, 29);
             this.radioButton23.TabIndex = 29;
             this.radioButton23.TabStop = true;
             this.radioButton23.Text = "Drywall";
@@ -778,9 +822,10 @@
             this.radioButton22.AutoSize = true;
             this.radioButton22.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.radioButton22.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.radioButton22.Location = new System.Drawing.Point(645, 157);
+            this.radioButton22.Location = new System.Drawing.Point(737, 209);
+            this.radioButton22.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.radioButton22.Name = "radioButton22";
-            this.radioButton22.Size = new System.Drawing.Size(55, 24);
+            this.radioButton22.Size = new System.Drawing.Size(68, 29);
             this.radioButton22.TabIndex = 28;
             this.radioButton22.TabStop = true;
             this.radioButton22.Text = "PVC";
@@ -791,9 +836,10 @@
             this.radioButton21.AutoSize = true;
             this.radioButton21.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.radioButton21.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.radioButton21.Location = new System.Drawing.Point(644, 115);
+            this.radioButton21.Location = new System.Drawing.Point(736, 153);
+            this.radioButton21.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.radioButton21.Name = "radioButton21";
-            this.radioButton21.Size = new System.Drawing.Size(80, 24);
+            this.radioButton21.Size = new System.Drawing.Size(99, 29);
             this.radioButton21.TabIndex = 27;
             this.radioButton21.TabStop = true;
             this.radioButton21.Text = "Madera";
@@ -804,9 +850,10 @@
             this.radioButton20.AutoSize = true;
             this.radioButton20.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.radioButton20.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.radioButton20.Location = new System.Drawing.Point(644, 76);
+            this.radioButton20.Location = new System.Drawing.Point(736, 101);
+            this.radioButton20.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.radioButton20.Name = "radioButton20";
-            this.radioButton20.Size = new System.Drawing.Size(58, 24);
+            this.radioButton20.Size = new System.Drawing.Size(71, 29);
             this.radioButton20.TabIndex = 26;
             this.radioButton20.TabStop = true;
             this.radioButton20.Text = "Yeso";
@@ -817,9 +864,9 @@
             this.label4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label4.Font = new System.Drawing.Font("Goudy Old Style", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label4.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.label4.Location = new System.Drawing.Point(691, 10);
+            this.label4.Location = new System.Drawing.Point(790, 13);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(175, 39);
+            this.label4.Size = new System.Drawing.Size(200, 67);
             this.label4.TabIndex = 25;
             this.label4.Text = "Tipo de prefabricado";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -836,9 +883,10 @@
             this.panel6.Controls.Add(this.radioButton26);
             this.panel6.Controls.Add(this.radioButton27);
             this.panel6.Controls.Add(this.label6);
-            this.panel6.Location = new System.Drawing.Point(3, 1487);
+            this.panel6.Location = new System.Drawing.Point(3, 1983);
+            this.panel6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(1446, 232);
+            this.panel6.Size = new System.Drawing.Size(1653, 309);
             this.panel6.TabIndex = 5;
             // 
             // button19
@@ -846,9 +894,10 @@
             this.button19.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button19.BackColor = System.Drawing.Color.Transparent;
             this.button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button19.Location = new System.Drawing.Point(877, 190);
+            this.button19.Location = new System.Drawing.Point(1002, 253);
+            this.button19.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(90, 23);
+            this.button19.Size = new System.Drawing.Size(103, 31);
             this.button19.TabIndex = 37;
             this.button19.Text = "Ver imagen ";
             this.button19.UseVisualStyleBackColor = false;
@@ -859,9 +908,10 @@
             this.button18.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button18.BackColor = System.Drawing.Color.Transparent;
             this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button18.Location = new System.Drawing.Point(877, 148);
+            this.button18.Location = new System.Drawing.Point(1002, 197);
+            this.button18.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(90, 23);
+            this.button18.Size = new System.Drawing.Size(103, 31);
             this.button18.TabIndex = 36;
             this.button18.Text = "Ver imagen ";
             this.button18.UseVisualStyleBackColor = false;
@@ -872,9 +922,10 @@
             this.button17.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button17.BackColor = System.Drawing.Color.Transparent;
             this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button17.Location = new System.Drawing.Point(877, 114);
+            this.button17.Location = new System.Drawing.Point(1002, 152);
+            this.button17.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(90, 23);
+            this.button17.Size = new System.Drawing.Size(103, 31);
             this.button17.TabIndex = 35;
             this.button17.Text = "Ver imagen ";
             this.button17.UseVisualStyleBackColor = false;
@@ -885,9 +936,10 @@
             this.button16.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button16.BackColor = System.Drawing.Color.Transparent;
             this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button16.Location = new System.Drawing.Point(877, 75);
+            this.button16.Location = new System.Drawing.Point(1002, 100);
+            this.button16.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(90, 23);
+            this.button16.Size = new System.Drawing.Size(103, 31);
             this.button16.TabIndex = 34;
             this.button16.Text = "Ver imagen ";
             this.button16.UseVisualStyleBackColor = false;
@@ -898,9 +950,10 @@
             this.radioButton28.AutoSize = true;
             this.radioButton28.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.radioButton28.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.radioButton28.Location = new System.Drawing.Point(646, 190);
+            this.radioButton28.Location = new System.Drawing.Point(738, 253);
+            this.radioButton28.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.radioButton28.Name = "radioButton28";
-            this.radioButton28.Size = new System.Drawing.Size(121, 24);
+            this.radioButton28.Size = new System.Drawing.Size(149, 29);
             this.radioButton28.TabIndex = 33;
             this.radioButton28.TabStop = true;
             this.radioButton28.Text = "Viga de acero";
@@ -911,9 +964,10 @@
             this.radioButton5.AutoSize = true;
             this.radioButton5.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.radioButton5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.radioButton5.Location = new System.Drawing.Point(645, 148);
+            this.radioButton5.Location = new System.Drawing.Point(737, 197);
+            this.radioButton5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(135, 24);
+            this.radioButton5.Size = new System.Drawing.Size(167, 29);
             this.radioButton5.TabIndex = 32;
             this.radioButton5.TabStop = true;
             this.radioButton5.Text = "Viga de madera";
@@ -924,9 +978,10 @@
             this.radioButton26.AutoSize = true;
             this.radioButton26.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.radioButton26.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.radioButton26.Location = new System.Drawing.Point(644, 114);
+            this.radioButton26.Location = new System.Drawing.Point(736, 152);
+            this.radioButton26.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.radioButton26.Name = "radioButton26";
-            this.radioButton26.Size = new System.Drawing.Size(193, 24);
+            this.radioButton26.Size = new System.Drawing.Size(242, 29);
             this.radioButton26.TabIndex = 31;
             this.radioButton26.TabStop = true;
             this.radioButton26.Text = "Losa de concreto maciza";
@@ -937,9 +992,10 @@
             this.radioButton27.AutoSize = true;
             this.radioButton27.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.radioButton27.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.radioButton27.Location = new System.Drawing.Point(644, 75);
+            this.radioButton27.Location = new System.Drawing.Point(736, 100);
+            this.radioButton27.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.radioButton27.Name = "radioButton27";
-            this.radioButton27.Size = new System.Drawing.Size(211, 24);
+            this.radioButton27.Size = new System.Drawing.Size(262, 29);
             this.radioButton27.TabIndex = 30;
             this.radioButton27.TabStop = true;
             this.radioButton27.Text = "Losa de concreto aligerado";
@@ -950,9 +1006,9 @@
             this.label6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label6.Font = new System.Drawing.Font("Goudy Old Style", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label6.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.label6.Location = new System.Drawing.Point(691, 0);
+            this.label6.Location = new System.Drawing.Point(790, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(232, 72);
+            this.label6.Size = new System.Drawing.Size(265, 96);
             this.label6.TabIndex = 29;
             this.label6.Text = "Como se encuentra construido el piso de la vivienda";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -977,9 +1033,10 @@
             this.panel7.Controls.Add(this.radioButton33);
             this.panel7.Controls.Add(this.radioButton34);
             this.panel7.Controls.Add(this.label7);
-            this.panel7.Location = new System.Drawing.Point(3, 1725);
+            this.panel7.Location = new System.Drawing.Point(3, 2300);
+            this.panel7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(1446, 426);
+            this.panel7.Size = new System.Drawing.Size(1653, 568);
             this.panel7.TabIndex = 6;
             // 
             // button27
@@ -987,9 +1044,10 @@
             this.button27.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button27.BackColor = System.Drawing.Color.Transparent;
             this.button27.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button27.Location = new System.Drawing.Point(877, 381);
+            this.button27.Location = new System.Drawing.Point(1002, 508);
+            this.button27.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button27.Name = "button27";
-            this.button27.Size = new System.Drawing.Size(90, 23);
+            this.button27.Size = new System.Drawing.Size(103, 31);
             this.button27.TabIndex = 53;
             this.button27.Text = "Ver imagen ";
             this.button27.UseVisualStyleBackColor = false;
@@ -1000,9 +1058,10 @@
             this.button26.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button26.BackColor = System.Drawing.Color.Transparent;
             this.button26.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button26.Location = new System.Drawing.Point(877, 317);
+            this.button26.Location = new System.Drawing.Point(1002, 423);
+            this.button26.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button26.Name = "button26";
-            this.button26.Size = new System.Drawing.Size(90, 23);
+            this.button26.Size = new System.Drawing.Size(103, 31);
             this.button26.TabIndex = 52;
             this.button26.Text = "Ver imagen ";
             this.button26.UseVisualStyleBackColor = false;
@@ -1013,9 +1072,10 @@
             this.button25.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button25.BackColor = System.Drawing.Color.Transparent;
             this.button25.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button25.Location = new System.Drawing.Point(877, 265);
+            this.button25.Location = new System.Drawing.Point(1002, 353);
+            this.button25.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button25.Name = "button25";
-            this.button25.Size = new System.Drawing.Size(90, 23);
+            this.button25.Size = new System.Drawing.Size(103, 31);
             this.button25.TabIndex = 51;
             this.button25.Text = "Ver imagen ";
             this.button25.UseVisualStyleBackColor = false;
@@ -1026,9 +1086,10 @@
             this.button24.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button24.BackColor = System.Drawing.Color.Transparent;
             this.button24.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button24.Location = new System.Drawing.Point(877, 226);
+            this.button24.Location = new System.Drawing.Point(1002, 301);
+            this.button24.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button24.Name = "button24";
-            this.button24.Size = new System.Drawing.Size(90, 23);
+            this.button24.Size = new System.Drawing.Size(103, 31);
             this.button24.TabIndex = 50;
             this.button24.Text = "Ver imagen ";
             this.button24.UseVisualStyleBackColor = false;
@@ -1039,9 +1100,10 @@
             this.button23.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button23.BackColor = System.Drawing.Color.Transparent;
             this.button23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button23.Location = new System.Drawing.Point(877, 181);
+            this.button23.Location = new System.Drawing.Point(1002, 241);
+            this.button23.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button23.Name = "button23";
-            this.button23.Size = new System.Drawing.Size(90, 23);
+            this.button23.Size = new System.Drawing.Size(103, 31);
             this.button23.TabIndex = 49;
             this.button23.Text = "Ver imagen ";
             this.button23.UseVisualStyleBackColor = false;
@@ -1052,9 +1114,10 @@
             this.button22.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button22.BackColor = System.Drawing.Color.Transparent;
             this.button22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button22.Location = new System.Drawing.Point(877, 126);
+            this.button22.Location = new System.Drawing.Point(1002, 168);
+            this.button22.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button22.Name = "button22";
-            this.button22.Size = new System.Drawing.Size(90, 23);
+            this.button22.Size = new System.Drawing.Size(103, 31);
             this.button22.TabIndex = 48;
             this.button22.Text = "Ver imagen ";
             this.button22.UseVisualStyleBackColor = false;
@@ -1065,9 +1128,10 @@
             this.button21.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button21.BackColor = System.Drawing.Color.Transparent;
             this.button21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button21.Location = new System.Drawing.Point(877, 97);
+            this.button21.Location = new System.Drawing.Point(1002, 129);
+            this.button21.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(90, 23);
+            this.button21.Size = new System.Drawing.Size(103, 31);
             this.button21.TabIndex = 47;
             this.button21.Text = "Ver imagen ";
             this.button21.UseVisualStyleBackColor = false;
@@ -1078,9 +1142,10 @@
             this.button20.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button20.BackColor = System.Drawing.Color.Transparent;
             this.button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button20.Location = new System.Drawing.Point(877, 63);
+            this.button20.Location = new System.Drawing.Point(1002, 84);
+            this.button20.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(90, 23);
+            this.button20.Size = new System.Drawing.Size(103, 31);
             this.button20.TabIndex = 46;
             this.button20.Text = "Ver imagen ";
             this.button20.UseVisualStyleBackColor = false;
@@ -1091,9 +1156,10 @@
             this.radioButton36.AutoSize = true;
             this.radioButton36.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.radioButton36.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.radioButton36.Location = new System.Drawing.Point(648, 381);
+            this.radioButton36.Location = new System.Drawing.Point(741, 508);
+            this.radioButton36.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.radioButton36.Name = "radioButton36";
-            this.radioButton36.Size = new System.Drawing.Size(85, 24);
+            this.radioButton36.Size = new System.Drawing.Size(107, 29);
             this.radioButton36.TabIndex = 45;
             this.radioButton36.TabStop = true;
             this.radioButton36.Text = "Metálica";
@@ -1103,9 +1169,10 @@
             // 
             this.radioButton35.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.radioButton35.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.radioButton35.Location = new System.Drawing.Point(648, 295);
+            this.radioButton35.Location = new System.Drawing.Point(741, 393);
+            this.radioButton35.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.radioButton35.Name = "radioButton35";
-            this.radioButton35.Size = new System.Drawing.Size(177, 81);
+            this.radioButton35.Size = new System.Drawing.Size(202, 108);
             this.radioButton35.TabIndex = 44;
             this.radioButton35.TabStop = true;
             this.radioButton35.Text = "Estructura de madera y tejas de barro";
@@ -1116,9 +1183,10 @@
             this.radioButton29.AutoSize = true;
             this.radioButton29.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.radioButton29.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.radioButton29.Location = new System.Drawing.Point(648, 265);
+            this.radioButton29.Location = new System.Drawing.Point(741, 353);
+            this.radioButton29.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.radioButton29.Name = "radioButton29";
-            this.radioButton29.Size = new System.Drawing.Size(72, 24);
+            this.radioButton29.Size = new System.Drawing.Size(90, 29);
             this.radioButton29.TabIndex = 43;
             this.radioButton29.TabStop = true;
             this.radioButton29.Text = "Eternit";
@@ -1129,9 +1197,10 @@
             this.radioButton30.AutoSize = true;
             this.radioButton30.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.radioButton30.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.radioButton30.Location = new System.Drawing.Point(648, 224);
+            this.radioButton30.Location = new System.Drawing.Point(741, 299);
+            this.radioButton30.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.radioButton30.Name = "radioButton30";
-            this.radioButton30.Size = new System.Drawing.Size(95, 24);
+            this.radioButton30.Size = new System.Drawing.Size(119, 29);
             this.radioButton30.TabIndex = 42;
             this.radioButton30.TabStop = true;
             this.radioButton30.Text = "Placa facil";
@@ -1142,9 +1211,10 @@
             this.radioButton31.AutoSize = true;
             this.radioButton31.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.radioButton31.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.radioButton31.Location = new System.Drawing.Point(648, 179);
+            this.radioButton31.Location = new System.Drawing.Point(741, 239);
+            this.radioButton31.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.radioButton31.Name = "radioButton31";
-            this.radioButton31.Size = new System.Drawing.Size(161, 24);
+            this.radioButton31.Size = new System.Drawing.Size(199, 29);
             this.radioButton31.TabIndex = 41;
             this.radioButton31.TabStop = true;
             this.radioButton31.Text = "Termina en plancha";
@@ -1155,9 +1225,10 @@
             this.radioButton32.AutoSize = true;
             this.radioButton32.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.radioButton32.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.radioButton32.Location = new System.Drawing.Point(648, 138);
+            this.radioButton32.Location = new System.Drawing.Point(741, 184);
+            this.radioButton32.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.radioButton32.Name = "radioButton32";
-            this.radioButton32.Size = new System.Drawing.Size(56, 24);
+            this.radioButton32.Size = new System.Drawing.Size(69, 29);
             this.radioButton32.TabIndex = 40;
             this.radioButton32.TabStop = true;
             this.radioButton32.Text = "Zinc";
@@ -1168,9 +1239,10 @@
             this.radioButton33.AutoSize = true;
             this.radioButton33.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.radioButton33.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.radioButton33.Location = new System.Drawing.Point(648, 97);
+            this.radioButton33.Location = new System.Drawing.Point(741, 129);
+            this.radioButton33.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.radioButton33.Name = "radioButton33";
-            this.radioButton33.Size = new System.Drawing.Size(193, 24);
+            this.radioButton33.Size = new System.Drawing.Size(242, 29);
             this.radioButton33.TabIndex = 39;
             this.radioButton33.TabStop = true;
             this.radioButton33.Text = "Losa de concreto maciza";
@@ -1181,9 +1253,10 @@
             this.radioButton34.AutoSize = true;
             this.radioButton34.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.radioButton34.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.radioButton34.Location = new System.Drawing.Point(648, 62);
+            this.radioButton34.Location = new System.Drawing.Point(741, 83);
+            this.radioButton34.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.radioButton34.Name = "radioButton34";
-            this.radioButton34.Size = new System.Drawing.Size(211, 24);
+            this.radioButton34.Size = new System.Drawing.Size(262, 29);
             this.radioButton34.TabIndex = 38;
             this.radioButton34.TabStop = true;
             this.radioButton34.Text = "Losa de concreto aligerado";
@@ -1194,9 +1267,9 @@
             this.label7.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label7.Font = new System.Drawing.Font("Goudy Old Style", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label7.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.label7.Location = new System.Drawing.Point(735, 20);
+            this.label7.Location = new System.Drawing.Point(840, 27);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(131, 39);
+            this.label7.Size = new System.Drawing.Size(150, 52);
             this.label7.TabIndex = 37;
             this.label7.Text = "Tipo de techo";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1207,9 +1280,10 @@
             this.panel8.Controls.Add(this.radioButton38);
             this.panel8.Controls.Add(this.radioButton37);
             this.panel8.Controls.Add(this.label8);
-            this.panel8.Location = new System.Drawing.Point(3, 2157);
+            this.panel8.Location = new System.Drawing.Point(3, 2876);
+            this.panel8.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(1446, 289);
+            this.panel8.Size = new System.Drawing.Size(1653, 385);
             this.panel8.TabIndex = 7;
             // 
             // radioButton38
@@ -1217,9 +1291,10 @@
             this.radioButton38.AutoSize = true;
             this.radioButton38.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.radioButton38.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.radioButton38.Location = new System.Drawing.Point(715, 248);
+            this.radioButton38.Location = new System.Drawing.Point(817, 331);
+            this.radioButton38.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.radioButton38.Name = "radioButton38";
-            this.radioButton38.Size = new System.Drawing.Size(48, 24);
+            this.radioButton38.Size = new System.Drawing.Size(59, 29);
             this.radioButton38.TabIndex = 12;
             this.radioButton38.TabStop = true;
             this.radioButton38.Text = "No";
@@ -1230,9 +1305,10 @@
             this.radioButton37.AutoSize = true;
             this.radioButton37.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.radioButton37.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.radioButton37.Location = new System.Drawing.Point(715, 210);
+            this.radioButton37.Location = new System.Drawing.Point(817, 280);
+            this.radioButton37.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.radioButton37.Name = "radioButton37";
-            this.radioButton37.Size = new System.Drawing.Size(39, 24);
+            this.radioButton37.Size = new System.Drawing.Size(48, 29);
             this.radioButton37.TabIndex = 11;
             this.radioButton37.TabStop = true;
             this.radioButton37.Text = "Si";
@@ -1244,9 +1320,9 @@
             this.label8.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label8.Font = new System.Drawing.Font("Goudy Old Style", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label8.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.label8.Location = new System.Drawing.Point(708, 9);
+            this.label8.Location = new System.Drawing.Point(809, 12);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(168, 187);
+            this.label8.Size = new System.Drawing.Size(192, 249);
             this.label8.TabIndex = 10;
             this.label8.Text = "La edificación presenta algún asentamiento (hundimiento) Si la respuesta es si in" +
     "cluya imagen desplazandose hacia la parte de abajo";
@@ -1259,17 +1335,19 @@
             this.panel9.Controls.Add(this.pictureBox2);
             this.panel9.Controls.Add(this.pictureBox1);
             this.panel9.Controls.Add(this.button1);
-            this.panel9.Location = new System.Drawing.Point(3, 2452);
+            this.panel9.Location = new System.Drawing.Point(3, 3269);
+            this.panel9.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(1446, 590);
+            this.panel9.Size = new System.Drawing.Size(1653, 787);
             this.panel9.TabIndex = 8;
             // 
             // button2
             // 
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(752, 487);
+            this.button2.Location = new System.Drawing.Point(859, 649);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.Size = new System.Drawing.Size(86, 31);
             this.button2.TabIndex = 17;
             this.button2.Text = "IMAGEN 2";
             this.button2.UseVisualStyleBackColor = true;
@@ -1279,9 +1357,10 @@
             // pictureBox2
             // 
             this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox2.Location = new System.Drawing.Point(655, 256);
+            this.pictureBox2.Location = new System.Drawing.Point(749, 341);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(261, 225);
+            this.pictureBox2.Size = new System.Drawing.Size(298, 300);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 16;
             this.pictureBox2.TabStop = false;
@@ -1290,9 +1369,10 @@
             // pictureBox1
             // 
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox1.Location = new System.Drawing.Point(655, 3);
+            this.pictureBox1.Location = new System.Drawing.Point(749, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(261, 218);
+            this.pictureBox1.Size = new System.Drawing.Size(298, 291);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 15;
             this.pictureBox1.TabStop = false;
@@ -1300,9 +1380,10 @@
             // button1
             // 
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(751, 227);
+            this.button1.Location = new System.Drawing.Point(858, 303);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(86, 31);
             this.button1.TabIndex = 13;
             this.button1.Text = "IMAGEN 1";
             this.button1.UseVisualStyleBackColor = true;
@@ -1315,9 +1396,10 @@
             this.panel10.Controls.Add(this.radioButton41);
             this.panel10.Controls.Add(this.label9);
             this.panel10.Controls.Add(this.radioButton42);
-            this.panel10.Location = new System.Drawing.Point(3, 3048);
+            this.panel10.Location = new System.Drawing.Point(3, 4064);
+            this.panel10.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(1446, 278);
+            this.panel10.Size = new System.Drawing.Size(1653, 371);
             this.panel10.TabIndex = 9;
             // 
             // radioButton41
@@ -1325,9 +1407,10 @@
             this.radioButton41.AutoSize = true;
             this.radioButton41.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.radioButton41.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.radioButton41.Location = new System.Drawing.Point(735, 240);
+            this.radioButton41.Location = new System.Drawing.Point(840, 320);
+            this.radioButton41.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.radioButton41.Name = "radioButton41";
-            this.radioButton41.Size = new System.Drawing.Size(48, 24);
+            this.radioButton41.Size = new System.Drawing.Size(59, 29);
             this.radioButton41.TabIndex = 12;
             this.radioButton41.Text = "No";
             this.radioButton41.UseVisualStyleBackColor = true;
@@ -1337,9 +1420,9 @@
             this.label9.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label9.Font = new System.Drawing.Font("Goudy Old Style", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label9.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.label9.Location = new System.Drawing.Point(727, 11);
+            this.label9.Location = new System.Drawing.Point(831, 15);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(168, 185);
+            this.label9.Size = new System.Drawing.Size(192, 247);
             this.label9.TabIndex = 10;
             this.label9.Text = "Se evidencias grietas pronunciadas en los muros y/o columnas. Si la respuesta es " +
     "si incluya imagen desplazandose hacia la parte de abajo";
@@ -1351,9 +1434,10 @@
             this.radioButton42.CausesValidation = false;
             this.radioButton42.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.radioButton42.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.radioButton42.Location = new System.Drawing.Point(735, 199);
+            this.radioButton42.Location = new System.Drawing.Point(840, 265);
+            this.radioButton42.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.radioButton42.Name = "radioButton42";
-            this.radioButton42.Size = new System.Drawing.Size(39, 24);
+            this.radioButton42.Size = new System.Drawing.Size(48, 29);
             this.radioButton42.TabIndex = 11;
             this.radioButton42.Text = "Si";
             this.radioButton42.UseVisualStyleBackColor = true;
@@ -1367,18 +1451,20 @@
             this.panel11.Controls.Add(this.pictureBox3);
             this.panel11.Controls.Add(this.pictureBox4);
             this.panel11.Controls.Add(this.button28);
-            this.panel11.Location = new System.Drawing.Point(3, 3332);
+            this.panel11.Location = new System.Drawing.Point(3, 4443);
+            this.panel11.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(1446, 625);
+            this.panel11.Size = new System.Drawing.Size(1653, 833);
             this.panel11.TabIndex = 10;
             // 
             // button29
             // 
             this.button29.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button29.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button29.Location = new System.Drawing.Point(752, 575);
+            this.button29.Location = new System.Drawing.Point(859, 767);
+            this.button29.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button29.Name = "button29";
-            this.button29.Size = new System.Drawing.Size(75, 27);
+            this.button29.Size = new System.Drawing.Size(86, 36);
             this.button29.TabIndex = 18;
             this.button29.Text = "TERMINAR";
             this.button29.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -1388,9 +1474,10 @@
             // button3
             // 
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(752, 516);
+            this.button3.Location = new System.Drawing.Point(859, 688);
+            this.button3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.Size = new System.Drawing.Size(86, 31);
             this.button3.TabIndex = 17;
             this.button3.Text = "IMAGEN 2";
             this.button3.UseVisualStyleBackColor = true;
@@ -1400,9 +1487,10 @@
             // pictureBox3
             // 
             this.pictureBox3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox3.Location = new System.Drawing.Point(655, 285);
+            this.pictureBox3.Location = new System.Drawing.Point(749, 380);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(261, 225);
+            this.pictureBox3.Size = new System.Drawing.Size(298, 300);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 16;
             this.pictureBox3.TabStop = false;
@@ -1410,9 +1498,10 @@
             // pictureBox4
             // 
             this.pictureBox4.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox4.Location = new System.Drawing.Point(660, 15);
+            this.pictureBox4.Location = new System.Drawing.Point(754, 20);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(261, 218);
+            this.pictureBox4.Size = new System.Drawing.Size(298, 291);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 15;
             this.pictureBox4.TabStop = false;
@@ -1420,9 +1509,10 @@
             // button28
             // 
             this.button28.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button28.Location = new System.Drawing.Point(751, 239);
+            this.button28.Location = new System.Drawing.Point(858, 319);
+            this.button28.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button28.Name = "button28";
-            this.button28.Size = new System.Drawing.Size(75, 23);
+            this.button28.Size = new System.Drawing.Size(86, 31);
             this.button28.TabIndex = 13;
             this.button28.Text = "IMAGEN 1";
             this.button28.UseVisualStyleBackColor = true;
@@ -1431,11 +1521,12 @@
             // 
             // Form2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.ClientSize = new System.Drawing.Size(1471, 761);
+            this.ClientSize = new System.Drawing.Size(1681, 1015);
             this.Controls.Add(this.flowLayoutPanel1);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form2";
             this.Text = "Form2";
             this.Load += new System.EventHandler(this.Form2_Load);

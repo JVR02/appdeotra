@@ -336,6 +336,7 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(1632, 493);
             this.panel3.TabIndex = 15;
+            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
             // pictureBox1
             // 
@@ -1627,6 +1628,7 @@
             this.panel15.Size = new System.Drawing.Size(1632, 797);
             this.panel15.TabIndex = 28;
             this.panel15.UseWaitCursor = true;
+            this.panel15.Paint += new System.Windows.Forms.PaintEventHandler(this.panel15_Paint);
             // 
             // textBox1
             // 

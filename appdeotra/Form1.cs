@@ -29,7 +29,7 @@ namespace appdeotra
         string b;
         string c;
         string d;
-        string e;
+        string ee;
         string f;
         string g;
         string h;
@@ -455,12 +455,16 @@ namespace appdeotra
                 m = "Ninguna de las anteriores";
             }
 
+            MemoryStream ms = new MemoryStream();
+            pictureBox1.Image.Save(ms, pictureBox1.Image.RawFormat);
+            byte[] imageBytes = ms.ToArray();
 
+            ee=Convert.ToBase64String(imageBytes);
 
             cn.Open();
-            string insertar = "INSERT INTO form2 (area_vivienda_frente_fondo,ubicacion_vivienda,elementos_cercanos,uso_predominante," +
+            string insertar = "INSERT INTO form2 (area_vivienda_frente_fondo,foto_de_vivienda,ubicacion_vivienda,elementos_cercanos,uso_predominante," +
                 "uso_diferente,uso_anterior,pisos_totales,uso_primero_piso,piso_de_la_vivivenda,sotanos,comparte_muro,equipos_grandes	)" +
-                "values('" + a + "','" + b + "', '" + c + "','" + d + "',' + @openFileDialog1 + ','" + f + "','" + g + "','" + h + "', '" + i + "','" + j + "','" + k + "', '" + l + "','" + m + "')";
+                "values('" + a + "','" + ee + "', '" + c + "','" + d + "','" + b + "','" + f + "','" + g + "','" + h + "', '" + i + "','" + j + "','" + k + "', '" + l + "','" + m + "')";
             MySqlCommand cmd = new MySqlCommand(insertar, cn);
 
 
@@ -619,6 +623,16 @@ namespace appdeotra
         {
             Form formulario1 = new valle();
             formulario1.Show();
+        }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel15_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
